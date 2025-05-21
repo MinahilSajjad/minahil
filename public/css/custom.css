@@ -1,0 +1,163 @@
+/* Light Orange Header */
+.custom-header {
+  background-color: #FFA500; /* light orange */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Dropdown hover behavior */
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -0.5rem;
+  display: none;
+}
+
+.dropdown-submenu:hover .dropdown-menu {
+  display: block;
+}
+
+/* Hover effect on nav links */
+.navbar-nav .nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+}
+
+/* Dropdown hover fix for bootstrap 5 */
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+.top-bar {
+  background-color: #ff8c00; /* Attractive darker orange */
+  font-weight: bold;
+  font-size: 0.95rem;
+  color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.top-bar a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+.navbar .dropdown .dropdown-toggle {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+/* abouus */
+/* General layout improvements */
+.elementor-section {
+  padding: 50px 20px;
+  background-color: #f8f9fa;
+}
+
+/* ABOUT US heading - customized separately */
+/* Make the entire About Us section green */
+.elementor-section.about-us-section {
+  background-color: #28a745;
+  padding: 80px 20px;
+}
+
+/* Style the About Us heading */
+.elementor-section.about-us-section h2.elementor-heading-title {
+  color: #3c7e07;
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 auto 30px;
+}
+
+
+/* All other section headings */
+.elementor-heading-title {
+  color: #000000; /* black */
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 20px;
+  border-left: 4px solid #000000;
+  padding-left: 10px;
+}
+
+/* Paragraph and list text styling */
+.elementor-widget-text-editor p,
+.elementor-widget-text-editor ul {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #333333;
+  line-height: 1.8;
+}
+
+/* List bullet styling */
+.elementor-widget-text-editor ul {
+  padding-left: 20px;
+}
+
+.elementor-widget-text-editor ul li {
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 20px;
+}
+
+.elementor-widget-text-editor ul li::before {
+  content: "✔";
+  color: #000000;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+}
+
+/* Section separation */
+.elementor-top-section {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+/* Vision & Mission card styles */
+.elementor-column.elementor-col-50 {
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Hover effect for columns */
+.elementor-column.elementor-col-50:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+
+
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .team-section {
+    flex: 1; /* Fills the space between header and footer */
+    width: 100%;
+    background-color: #fff;
+    padding: 50px 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+  }
+
+  footer {
+    flex-shrink: 0;
+  }
+
+
+  
