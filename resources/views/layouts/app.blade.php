@@ -72,7 +72,7 @@
       </div>
 
       <div class="border-top border-white pt-3 d-flex flex-column flex-md-row justify-content-between align-items-center">
-        <p class="mb-0">&copy; 2023 Bank of Azad Jammu & Kashmir. All Rights Reserves</p>
+        <p class="mb-0">&copy; 2023 Bank of Azad Jammu & Kashmir. All Rights Reserved</p>
         <div>
           <a href="{{ route('careers') }}" class="text-white me-3 text-decoration-none">Careers</a>
           <a href="{{ route('downloads') }}" class="text-white me-3 text-decoration-none">Downloads</a>
